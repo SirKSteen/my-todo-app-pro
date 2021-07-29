@@ -1,0 +1,21 @@
+.clearButtonContainer {
+  height: 75%;
+  width: 80%;
+  background-color: rgb(230, 138, 33);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.clearButtonContainer h1 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  z-index: 9;
+}
+
+.clearButtonContainer:hover {
+  cursor: pointer;
+  background-color: rgb(238, 162, 75);
+}

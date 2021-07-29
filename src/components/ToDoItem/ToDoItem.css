@@ -1,0 +1,74 @@
+.toDoItemContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: rgba(209, 206, 206, 0.39);
+  z-index: 9;
+  margin: 2px 0px;
+  display: flex;
+  padding: 10px 15px 10px 10px;
+}
+
+.toDoItemContainer:hover {
+  background-color: rgba(187, 186, 186, 0.589);
+  /* cursor: pointer; */
+}
+
+.taskDetails h2 {
+  color: rgba(58, 57, 57, 0.925);
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px 10px 10px 0px;
+  text-overflow: ellipsis;
+}
+
+.taskDetails {
+  width: 65%;
+  text-overflow: ellipsis;
+}
+
+.icons {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  display: flex;
+}
+
+.toDoItem__delete {
+  font-size: 12px;
+  font-weight: 600;
+  height: 25px;
+  width: 50px;
+  margin: 8px 0px 10px 0px;
+  border: 0.5px solid rgba(146, 146, 146, 0.603);
+  border-radius: 5px;
+  background-color: rgb(252, 126, 88);
+  color: rgba(58, 57, 57, 0.925);
+}
+
+.toDoItem__delete:hover {
+  cursor: pointer;
+  background-color: rgb(248, 180, 157);
+}
+
+.toDoItem__update {
+  font-size: 12px;
+  font-weight: 600;
+  height: 25px;
+  width: 55px;
+  margin: 8px 10px 10px 0px;
+  border: 0.5px solid rgba(146, 146, 146, 0.603);
+  border-radius: 5px;
+  background-color: rgb(245, 202, 122);
+  color: rgba(58, 57, 57, 0.925);
+}
+
+.toDoItem__update:hover {
+  cursor: pointer;
+  background-color: rgb(247, 213, 150);
+}
+
+.tasks-list {
+  list-style: none;
+  padding: 0;
+}

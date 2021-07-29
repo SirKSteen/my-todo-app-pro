@@ -1,0 +1,19 @@
+.AppContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: rgb(137, 207, 240);
+}
+
+.errorContainer {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  background-color: rgba(141, 140, 140, 0.452);
+}
+
+.errorContainer h1 {
+  color: #4b4b4b;
+}

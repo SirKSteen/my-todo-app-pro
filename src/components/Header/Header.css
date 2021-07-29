@@ -1,0 +1,33 @@
+.headerBox {
+  background-color: rgba(6, 44, 63, 0.719);
+  height: 50px;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.headerBox div {
+  width: 25%;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerBox h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(233, 233, 233);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.headerBox-List:hover,
+.headerBox-Logout:hover {
+  background-color: rgba(224, 223, 220, 0.295);
+}

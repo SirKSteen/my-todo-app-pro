@@ -1,0 +1,23 @@
+.buttonContainer {
+  height: 100%;
+  width: 180px;
+  position: absolute;
+  background-color: rgb(43, 99, 151);
+  border-width: 2px 4px;
+  border-radius: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.buttonContainer:hover {
+  background-color: rgb(68, 126, 180);
+  cursor: pointer;
+}
+
+.buttonContainer h2 {
+  font-size: 21px;
+  color: white;
+  font-weight: 400;
+}
